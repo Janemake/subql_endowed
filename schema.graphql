@@ -1,0 +1,6 @@
+type Endowed @entity {
+  id: ID!
+  accCreated: String!
+  endowedAmount: BigInt
+  timestamp: Date!
+}
